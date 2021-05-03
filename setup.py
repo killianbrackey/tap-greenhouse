@@ -21,6 +21,6 @@ setup(
     [console_scripts]
     tap-greenhouse=tap_greenhouse:main
     """,
-    packages=["tap_greenhouse"],
+    packages=["tap_greenhouse", "tap_greenhouse.streams"],
     include_package_data=True,
 )
